@@ -64,29 +64,123 @@
 
 
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // ===== Console output
+    // class Program
+    // {
+    //     static void Main(string[] args)
+    //     {
+    //         // ===== Console output
 
-            //Console.ForegroundColor = ConsoleColor.DarkGreen;
-            //Console.BackgroundColor = ConsoleColor.White;
-            //Console.SetCursorPosition(12, 4);
+    //         //Console.ForegroundColor = ConsoleColor.DarkGreen;
+    //         //Console.BackgroundColor = ConsoleColor.White;
+    //         //Console.SetCursorPosition(12, 4);
 
-            //Console.WriteLine("Vasia");
+    //         //Console.WriteLine("Vasia");
 
-            //Console.ResetColor();
+    //         //Console.ResetColor();
 
 
-            // ===== Console input
+    //         // ===== Console input
 
-            Console.Write("Write your email: ");
-            string email = Console.ReadLine();
-            Console.Write("Write your age: ");
-            int age = Convert.ToInt32(Console.ReadLine());
+    //         Console.Write("Write your email: ");
+    //         string email = Console.ReadLine();
+    //         Console.Write("Write your age: ");
+    //         int age = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine($"Email: {email}, Age: {age}");
-        }
-    }
+    //         Console.WriteLine($"Email: {email}, Age: {age}");
+    //     }
+    // }
+
+
+
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        // + - * / %
+    //        //Console.WriteLine( 5 / 2.0 );
+    //        //Console.WriteLine( 7 / 3 );
+    //        //Console.WriteLine( (double)7 / 3 );
+    //        //Console.WriteLine( 4 + 3 * 2 );
+
+    //        // ++ --
+    //        // int a = 5;
+    //        // Console.WriteLine( a++ + ++a );
+
+    //        // = += -= *= /= %=
+    //        // int a = 5;
+    //        // Console.WriteLine(a += 2);      // a = a + 2
+
+    //        // == != < > <= >= <=>
+
+    //        // ! & && | || ^
+    //        // bool a = true;
+    //        // bool b = false;
+
+    //        // Console.WriteLine( a && b );        // false
+    //        // Console.WriteLine( a & b );         // false
+
+    //        //Console.WriteLine(b && (a = false));
+    //        //Console.WriteLine(a);
+    //        //Console.WriteLine(b & (a = false));
+    //        //Console.WriteLine(a);
+
+    //        //Console.WriteLine(a || (b = true));
+    //        //Console.WriteLine(b);
+    //        //Console.WriteLine(a | (b = true));
+    //        //Console.WriteLine(b);
+
+    //        //Console.WriteLine(true ^ true);         // false
+    //        //Console.WriteLine(true ^ false);        // true
+    //        //Console.WriteLine(false ^ true);        // true
+    //        //Console.WriteLine(false ^ false);       // false
+    //    }
+    //}
+
+
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        int a = 20;
+    //        if (a > 20)
+    //            Console.WriteLine("Greater than 20");
+    //        else if (a < 20)
+    //        {
+    //            Console.WriteLine("vasia");
+    //        }
+    //        else
+    //        {
+    //            Console.WriteLine("ELSE");
+    //        }
+
+    //        int result = a > 20 ? 3 : 40;
+    //    }
+    //}
+
+
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        // cycles       while / do while    for     foreach
+
+    //        //for (int i = 0; i < 10; ++i)
+    //        //{
+    //        //    //if (i == 5)
+    //        //    //    break;        //  прерывание цикла
+
+    //        //    //if (i == 5)
+    //        //    //    continue;       // прерывание итерации
+
+    //        //    Console.WriteLine(i);
+    //        //}
+
+
+    //        //string str = "Vasia";
+    //        //foreach(char ch in str)
+    //        //{
+    //        //    Console.WriteLine(ch);
+    //        //}
+    //    }
+    //}
 }
