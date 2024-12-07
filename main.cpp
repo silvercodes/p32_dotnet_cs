@@ -11,6 +11,22 @@ class User
         int level;
 };
 
+class Unit
+{
+    public:
+        int hp;
+        std::string title;
+
+        Unit(int hp, const std::string& title):
+            hp{hp},
+            title{title}
+        {}
+
+        Unit(int hp):
+            Unit{hp, "on_title"}
+        {}
+}
+
 //int User::maxId = 1;
 
 int main()
