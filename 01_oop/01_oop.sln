@@ -9,13 +9,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_struct", "01_struct\01_s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_types", "02_types\02_types.csproj", "{93D82C9B-5D9E-4709-9E50-46221130EFEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ns", "03_ns\03_ns.csproj", "{5001BD4D-1CF6-4F7A-8DDF-BA416962DF4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_ns", "03_ns\03_ns.csproj", "{5001BD4D-1CF6-4F7A-8DDF-BA416962DF4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileProcessor", "FileProcessor\FileProcessor.csproj", "{E61CDEDE-4EC3-454D-8E7B-B88612D13342}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileProcessor", "FileProcessor\FileProcessor.csproj", "{E61CDEDE-4EC3-454D-8E7B-B88612D13342}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_libraries", "04_libraries\04_libraries.csproj", "{B276010C-06F3-4747-8225-0970C415B567}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_libraries", "04_libraries\04_libraries.csproj", "{B276010C-06F3-4747-8225-0970C415B567}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib", "MathLib\MathLib.csproj", "{C60BE4CE-F592-4DE7-A92B-CFD8115BEA44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathLib", "MathLib\MathLib.csproj", "{C60BE4CE-F592-4DE7-A92B-CFD8115BEA44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ modificators", "05_ modificators\05_ modificators.csproj", "{B650C215-12E6-4823-A4ED-3512260B99AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModLib", "ModLib\ModLib.csproj", "{E802EF10-BC45-491E-85C9-2022F54BBC16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_properties", "06_properties\06_properties.csproj", "{0C99642E-B9D4-482A-BBD3-18159A9EAF9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_overloading_static_const", "07_overloading_static_const\07_overloading_static_const.csproj", "{37C61067-6BED-4D79-B198-BFC595C5A5A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,22 @@ Global
 		{C60BE4CE-F592-4DE7-A92B-CFD8115BEA44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C60BE4CE-F592-4DE7-A92B-CFD8115BEA44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C60BE4CE-F592-4DE7-A92B-CFD8115BEA44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B650C215-12E6-4823-A4ED-3512260B99AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B650C215-12E6-4823-A4ED-3512260B99AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B650C215-12E6-4823-A4ED-3512260B99AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B650C215-12E6-4823-A4ED-3512260B99AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E802EF10-BC45-491E-85C9-2022F54BBC16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E802EF10-BC45-491E-85C9-2022F54BBC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E802EF10-BC45-491E-85C9-2022F54BBC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E802EF10-BC45-491E-85C9-2022F54BBC16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C99642E-B9D4-482A-BBD3-18159A9EAF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C99642E-B9D4-482A-BBD3-18159A9EAF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C99642E-B9D4-482A-BBD3-18159A9EAF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C99642E-B9D4-482A-BBD3-18159A9EAF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C61067-6BED-4D79-B198-BFC595C5A5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C61067-6BED-4D79-B198-BFC595C5A5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C61067-6BED-4D79-B198-BFC595C5A5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C61067-6BED-4D79-B198-BFC595C5A5A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
