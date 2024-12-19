@@ -17,13 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_libraries", "04_librarie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathLib", "MathLib\MathLib.csproj", "{C60BE4CE-F592-4DE7-A92B-CFD8115BEA44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ modificators", "05_ modificators\05_ modificators.csproj", "{B650C215-12E6-4823-A4ED-3512260B99AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_ modificators", "05_ modificators\05_ modificators.csproj", "{B650C215-12E6-4823-A4ED-3512260B99AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModLib", "ModLib\ModLib.csproj", "{E802EF10-BC45-491E-85C9-2022F54BBC16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModLib", "ModLib\ModLib.csproj", "{E802EF10-BC45-491E-85C9-2022F54BBC16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_properties", "06_properties\06_properties.csproj", "{0C99642E-B9D4-482A-BBD3-18159A9EAF9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06_properties", "06_properties\06_properties.csproj", "{0C99642E-B9D4-482A-BBD3-18159A9EAF9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_overloading_static_const", "07_overloading_static_const\07_overloading_static_const.csproj", "{37C61067-6BED-4D79-B198-BFC595C5A5A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07_overloading_static_const", "07_overloading_static_const\07_overloading_static_const.csproj", "{37C61067-6BED-4D79-B198-BFC595C5A5A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_nullable", "08_nullable\08_nullable.csproj", "{D90BBECE-F29C-482E-87AA-FFAEF6EEDBE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{37C61067-6BED-4D79-B198-BFC595C5A5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37C61067-6BED-4D79-B198-BFC595C5A5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37C61067-6BED-4D79-B198-BFC595C5A5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D90BBECE-F29C-482E-87AA-FFAEF6EEDBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D90BBECE-F29C-482E-87AA-FFAEF6EEDBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D90BBECE-F29C-482E-87AA-FFAEF6EEDBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D90BBECE-F29C-482E-87AA-FFAEF6EEDBE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

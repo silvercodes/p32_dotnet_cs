@@ -115,42 +115,56 @@
 // };
 
 
-int mmmaxId;
+// int mmmaxId;
 
-class User
-{
-    public:
-        static int maxId;
-        int id;
+// class User
+// {
+//     public:
+//         static int maxId;
+//         const int a = 4;
+//         static const int b = 5;
 
-        User():
-            id{++User::maxId}
-        {}
+//         int id;
 
-        static void resetMaxId()
-        {
-            User::maxId = 0;
-        }
-        void render()
-        {
-            std::cout << "id" << this->id << '\n';
-        }
-};
+//         User():
+//             id{++User::maxId}
+//         {}
 
-int User::maxId = 0;
+//         static void resetMaxId()
+//         {
+//             User::maxId = 0;
+//         }
+//         void render()
+//         {
+//             std::cout << "id" << this->id << '\n';
+//         }
+// };
+
+// int User::maxId = 0;
+
+// int main()
+// {
+//     // render();
+//     mmmaxId = 45;
+//     // maxId = 34;
+//     User::maxId = 34;
+
+//     User* u = new User{};
+//     u->render();
+
+//     // resetMaxId();
+//     User::resetMaxId();
+// }
+
+
 
 int main()
 {
-    // render();
-    mmmaxId = 45;
-    // maxId = 34;
-    User::maxId = 34;
+    int a = nullptr;        
+    int* b = nullptr;       // 0x0000000000000000
 
-    User* u = new User{};
-    u->render();
 
-    // resetMaxId();
-    User::resetMaxId();
+
 }
 
 
