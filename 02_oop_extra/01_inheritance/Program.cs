@@ -137,48 +137,106 @@
 
 
 
-User a = new User(104);
-a.Age = 23;
-User user = new Student(103);
-user.Age = 18;
+//User a = new User(104);
+//a.Age = 23;
+//User user = new Student(103);
+//user.Age = 18;
 
 
+//class User
+//{
+//    public int Id { get; set; }
+//    public virtual int Age { get; set; }
 
-class User
-{
-    public int Id { get; set; }
-    public virtual int Age { get; set; }
+//    public User(int id)
+//    {
+//        Id = id;
+//    }
+//    public virtual void Render() => Console.WriteLine($"Render from User: {Id}");
+//}
 
-    public User(int id)
-    {
-        Id = id;
-    }
-    public virtual void Render() => Console.WriteLine($"Render from User: {Id}");
-}
+//class Student: User
+//{
+//    // public override int Age { get; set; }           // FU FU FU
+//    public override int Age
+//    {
+//        get
+//        {
+//            Console.WriteLine("GetAge() from Student");
+//            return base.Age;
+//        }
+//        set
+//        {
+//            Console.WriteLine("SetAge() from Student");
+//            base.Age = value;
+//        }
+//    }
+//    public Student(int id) :
+//        base(id)
+//    { }
 
-class Student: User
-{
-    // public override int Age { get; set; }           // FU FU FU
-    public override int Age
-    {
-        get
-        {
-            Console.WriteLine("GetAge() from Student");
-            return base.Age;
-        }
-        set
-        {
-            Console.WriteLine("SetAge() from Student");
-            base.Age = value;
-        }
-    }
-    public Student(int id) :
-        base(id)
-    { }
-
-    public override void Render() => Console.WriteLine($"Render from Student: {Id}");
-}
+//    public override void Render() => Console.WriteLine($"Render from Student: {Id}");
+//}
 
 #endregion
 
+#region Hiding
 
+//Admin admin = new Admin(101, "vasia@mail.com");
+//admin.Render();
+
+//User user = new Admin(102, "vasia@mail.com");
+//user.Render();
+
+//Console.WriteLine(User.maxAge);
+//Console.WriteLine(Admin.maxAge);
+
+//Admin admin = new Admin(101, "vasia@mail.com");
+//User user = new Admin(102, "vasia@mail.com");
+
+//admin.Email = "dima@mail.com";
+//user.Email = "dima@mail.com";
+
+//class User
+//{
+//    public int Id { get; set; }
+//    public readonly static int maxAge = 18;
+//    public const double PI = 3.14;
+//    public string Email { get; set; } = "no_email";
+//    public User(int id, string email)
+//    {
+//        Id = id;
+//        Email = email;
+//    }
+//    public void Render()
+//    {
+//        Console.WriteLine($"User: {Email}");
+//    }
+//}
+//class Admin: User
+//{
+//    public readonly static new int maxAge = 21;
+//    public new const double PI = 3.1415;
+//    public Admin(int id, string email):
+//        base(id, email)
+//    { }
+//    // public new string Email { get; set; }            // :-(((
+//    public new string Email
+//    {
+//        get => $"admin: {base.Email}";
+//        set
+//        {
+//            Console.WriteLine("Admin setEmail()...");
+//            base.Email = value;
+//        }
+//    }
+
+//    public new void Render()
+//    {
+//        Console.ForegroundColor = ConsoleColor.Green;
+//        Console.WriteLine($"Admin Render(): {maxAge}");
+//        Console.ResetColor();
+//    }
+//}
+
+#endregion
